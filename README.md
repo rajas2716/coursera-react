@@ -1,3 +1,6 @@
+## I created this project as a submission for my coursera react course. --Rajas Paunikar
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
