@@ -64,12 +64,14 @@ class DishDetail extends Component{
     const dishItem = this.renderDish(dish);
     const dishComment = this.renderComments(dish.comments);
 		return (
-            <div className="row">
-            <div className="col-12 col-md-5 m-1">
-              {dishItem}
-              </div>
-              <div className="col-12 col-md-5 m-1">
-              {dishComment}
+            <div className="container">
+              <div className="row">
+                <div className="col-12 col-md-5 m-1">
+                  {dishItem}
+                </div>
+                <div className="col-12 col-md-5 m-1">
+                  {dishComment}
+                </div>
               </div>
             </div> 
         );
